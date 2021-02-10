@@ -4,6 +4,7 @@ let visitList = ['Riyadh', 'Qatar', 'America', 'China', 'Amman', 'Jordan'];
 let chance= 0;
 let userInput1 = prompt ('try to guess a place that i visit');
 
+
 while (chance<5){
   for (let i=0; i < visitList.length; i++){
   if (visitList[i]===userInput1){
@@ -19,8 +20,9 @@ while (chance<5){
   break;
 }
 
+
+
 let jobList = ['Nurse', 'teacher', 'athletic', 'engineer', 'nutritionist', 'doctor'];
-let chance= 0;
 let userInput2 = prompt ('try to guess my job filed');
 
 while (chance<5){
@@ -30,16 +32,20 @@ while (chance<5){
   } else  {
     alert ('wrong answer, try again');
     userInput2 = prompt ('try to guess my job filed');
+  }
+
  }
-  
+
   chance++;
   alert('final chance, the right answer ....' + jobList);
   break;
+  
 }
 
 
+
+
 let lanceList = ['Black', 'hazel', 'brown', 'blue', 'green', 'gray'];
-let chance= 0;
 let userInput3 = prompt ('try to guess my lance color i like');
 
 while (chance<5){
@@ -50,6 +56,7 @@ while (chance<5){
     alert ('wrong answer, try again');
     userInput3 = prompt ('try to guess my lance color i like');
   }
+
  }
   
   chance++;
@@ -57,8 +64,10 @@ while (chance<5){
   break;
 }
 
+
+
+
 let petList = ['cat', 'puppy', 'dog',​'​hamster', 'bird', 'squirrel'];
-let chance= 0;
 let userInput4 = prompt ('try to guess a pet i like');
 
 while (chance<5){
@@ -69,16 +78,19 @@ while (chance<5){
     alert ('wrong answer, try again');
     userInput4 = prompt ('try to guess a pet i like');
   }
+
  }
   
   chance++;
   alert('final chance, the right answer ....' + petList);
   break;
+
 }
 
 
+
+
 let juiceList = ['Apple', 'orange', 'strawberry', 'lemon', 'pineapple', 'guava'];
-let chance= 0;
 let userInput5 = prompt ('try to guess a juice i like');
 
 while (chance<5){
@@ -89,16 +101,19 @@ while (chance<5){
     alert ('wrong answer, try again');
     userInput5 = prompt ('try to guess a juice i like');
   }
+
  }
   
   chance++;
   alert('final chance, the right answer ....' + juiceList);
   break;
+
 }
 
 
+
+
 let movieList = ['Romantic', 'horror', 'action', 'sci-fi', 'animation', 'documentary'];
-let chance= 0;
 let userInput6 = prompt ('try to guess a movie type i like');
 
 while (chance<5){
@@ -109,16 +124,21 @@ while (chance<5){
     alert ('wrong answer, try again');
     userInput6 = prompt ('try to guess a movie type i like');
   }
+
  }
   
   chance++;
   alert('final chance, the right answer ....' + movieList);
   break;
+
 }
 
 
+
+
+
+
 let colorList = ['Red', 'Green', 'Black', 'Blue', 'Pink', 'Indigo'];
-let chance= 0;
 let userInput7 = prompt ('try to guess a colors that i like');
 
 while (chance<5){
@@ -129,9 +149,12 @@ while (chance<5){
     alert ('wrong answer, try again');
     userInput7 = prompt ('try to guess a colors that i like');
   }
+
  }
+
   
   chance++;
   alert('final chance, the right answer ....' + colorList);
   break;
+
 }
