@@ -11,7 +11,9 @@ if (bornPlace === 'no'){
 
             alert('wrong answer...' + userName);
 }
-                
+        function testuserName(userName){
+            return[userName];
+        }        
 
 
 
