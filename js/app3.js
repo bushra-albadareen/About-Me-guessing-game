@@ -6,7 +6,7 @@ let userInput1 = prompt ('try to guess a place that i visit');
 
 
 for (let i =0; i < chance; i++){
-  for (let j=0; ij < visitList.length; j++){
+  for (let j=0; j < visitList.length; j++){
   if (userInput1===visitList[j]){
     alert ('right answer');
     
@@ -30,8 +30,8 @@ for (let i =0; i < chance; i++){
 
 
  for (let i =0; i < chance; i++){
-  for (let i=0; i < lanceList.length; i++){
-  if (lanceList[i]=== userInput3){
+  for (let j=0; j < lanceList.length; j++){
+  if (lanceList[j]=== userInput3){
     alert ('right answer');
     
   } else {
@@ -56,8 +56,8 @@ for (let i =0; i < chance; i++){
 
 
  for (let i =0; i < chance; i++){
-  for (let i=0; i < juiceList.length; i++){
-  if (juiceList[i]=== userInput5){
+  for (let j=0; j < juiceList.length; j++){
+  if (juiceList[j]=== userInput5){
     alert ('right answer');
     
   } else {
@@ -83,8 +83,8 @@ for (let i =0; i < chance; i++){
 
 
  for (let i =0; i < chance; i++){
-  for (let i=0; i < movieList.length; i++){
-  if (movieList[i]=== userInput6){
+  for (let j=0; j < movieList.length; j++){
+  if (movieList[j]=== userInput6){
     alert ('right answer');
     
   } else {
@@ -109,8 +109,8 @@ for (let i =0; i < chance; i++){
 
 
  for (let i =0; i < chance; i++){
-  for (let i=0; i < colorList.length; i++){
-  if (colorList[i]=== userInput7){
+  for (let j=0; j < colorList.length; j++){
+  if (colorList[j]=== userInput7){
     alert ('right answer');
     
   } else {
